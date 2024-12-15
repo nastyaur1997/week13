@@ -1,0 +1,37 @@
+* {
+  font-family: monospace;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  height: 50vh;
+  justify-content: space-around;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+.input {
+  height: 10vh;
+}
+input {
+  border: 2px solid cornflowerblue;
+  border-radius: 5px;
+  height: 30px;
+  width: 160px;
+}
+button {
+  border-radius: 5px;
+  height: 35px;
+  width: 100px;
+  color: white;
+  background-color: rgb(107, 211, 107);
+  font-size: 15px;
+  border: none;
+}
+.message {
+  height: 5vh;
+  font-size: 15px;
+}
